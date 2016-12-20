@@ -1,0 +1,128 @@
+
+$main-color: #2b95fd;
+$white-color:#ffffff;
+$font-style:Arial;
+$button-color:#cf3464;
+$header-font-size:52px;
+$link-font-size:20px;
+$text-font-size:22px;
+$section-header:36px;
+$subheader-text-color:#959595;
+
+.white{
+    color: $white-color;
+}
+.navbar-default{
+	padding:14px;
+	background:white;
+	margin-bottom:0px;
+}
+.navbar-right{
+	margin-right:41px;
+}
+.jumbotron{
+    background-image: url('../img/hero-photo.png');
+    background-position: 56% 50%;
+    background-size: auto 100%;
+    padding-bottom:15%;
+    background-repeat:no-repeat;
+}
+.hero-style{
+    margin-top:24%;
+    margin-left:10%;
+}
+.jumbotron .h1, .jumbotron h1.hero-text{
+	font-size: $header-font-size;
+}
+.sub-hero-style{
+    font-size: $text-font-size;
+}
+.navbar-default .navbar-nav>li>a.list-style{
+    font-size: $link-font-size;
+    color: $button-color;
+}
+.navbar-default .navbar-nav>li>a.list-style:hover{
+    background-color: $button-color;
+    color: $white-color;
+}
+.button-style{
+    background-color: $button-color;
+    font-size: $text-font-size;
+    padding: 10px;
+    border-radius: 28px;
+}
+.button-style:hover,.button-style:focus, .card-button:hover, .card-button:focus{
+color: $white-color;
+}
+.section-style{
+    margin-top: 70px;
+    margin-bottom: 24px;
+}
+.section-header{
+font-size: $section-header;
+color: $main-color;
+}
+.section-sub-header{
+    color: $subheader-text-color;
+    font-size: $text-font-size;
+    margin-bottom: 70px;
+}
+.card1{
+    background-color: $main-color;
+}
+.card2-background{
+    background-color: #5068e4;
+}
+.card3-background{
+    background-color: #713bcb;
+}
+.card-header{
+    font-size:42px;
+}
+.card-sub-header{
+    font-size:24px;
+}
+.card-text{
+    font-size:18px;
+    list-style-type: none;
+    padding:0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.card{
+    padding:50px 0px;
+    line-height: 35px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+.section-style{
+    margin-top:70px;
+}
+.card-button{
+    background-color: transparent;
+    border: 2px solid $white-color;
+    border-radius: 25px;
+    width: 60%;
+    font-size: 22px;
+}
+.about{
+    @extend .jumbotron;
+    padding-bottom: 17%;
+    background-position: 34% 50%;
+    background-image: url('../img/about-photo.png');
+}
+.about-section-style{
+    padding-top:22%;
+}
+.album{
+    margin-bottom:50px;
+    position:relative;
+}
+.footer{
+    background:$main-color;
+    padding:20px;
+}
+.contact-image {
+    margin-right: 2px;
+    margin-top: -5px;
+}

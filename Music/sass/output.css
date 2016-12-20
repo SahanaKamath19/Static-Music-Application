@@ -1,0 +1,117 @@
+.white {
+  color: #ffffff; }
+
+.navbar-default {
+  padding: 14px;
+  background: white;
+  margin-bottom: 0px; }
+
+.navbar-right {
+  margin-right: 41px; }
+
+.jumbotron, .about {
+  background-image: url("../img/hero-photo.png");
+  background-position: 56% 50%;
+  background-size: auto 100%;
+  padding-bottom: 15%;
+  background-repeat: no-repeat; }
+
+.hero-style {
+  margin-top: 24%;
+  margin-left: 10%; }
+
+.jumbotron .h1, .about .h1, .jumbotron h1.hero-text, .about h1.hero-text {
+  font-size: 52px; }
+
+.sub-hero-style {
+  font-size: 22px; }
+
+.navbar-default .navbar-nav > li > a.list-style {
+  font-size: 20px;
+  color: #cf3464; }
+
+.navbar-default .navbar-nav > li > a.list-style:hover {
+  background-color: #cf3464;
+  color: #ffffff; }
+
+.button-style {
+  background-color: #cf3464;
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 28px; }
+
+.button-style:hover, .button-style:focus, .card-button:hover, .card-button:focus {
+  color: #ffffff; }
+
+.section-style {
+  margin-top: 70px;
+  margin-bottom: 24px; }
+
+.section-header {
+  font-size: 36px;
+  color: #2b95fd; }
+
+.section-sub-header {
+  color: #959595;
+  font-size: 22px;
+  margin-bottom: 70px; }
+
+.card1 {
+  background-color: #2b95fd; }
+
+.card2-background {
+  background-color: #5068e4; }
+
+.card3-background {
+  background-color: #713bcb; }
+
+.card-header {
+  font-size: 42px; }
+
+.card-sub-header {
+  font-size: 24px; }
+
+.card-text {
+  font-size: 18px;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.card {
+  padding: 50px 0px;
+  line-height: 35px;
+  border-radius: 30px;
+  margin-bottom: 50px; }
+
+.section-style {
+  margin-top: 70px; }
+
+.card-button {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  width: 60%;
+  font-size: 22px; }
+
+.about {
+  padding-bottom: 17%;
+  background-position: 34% 50%;
+  background-image: url("../img/about-photo.png"); }
+
+.about-section-style {
+  padding-top: 22%; }
+
+.album {
+  margin-bottom: 50px;
+  position: relative; }
+
+.footer {
+  background: #2b95fd;
+  padding: 20px; }
+
+.contact-image {
+  margin-right: 2px;
+  margin-top: -5px; }
+
+/*# sourceMappingURL=output.css.map */
